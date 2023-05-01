@@ -5,11 +5,11 @@ This application is licensed under GPL v3. https://www.gnu.org/licenses/gpl-3.0.
 
 How to clone and run Download the repo and run Psychic.java. No other setup should be required. Keep all files in the same directory. 
 
-Operation: Once the repository is downloaded, extract and open fortuneTeller. 
+Operation: Once the repository is downloaded, extract and open Psychic.java. 
 
-In order to use the application, select either Ask, Past Quieres or Customize . Once this is done, you will have access to a database where you are able to freely create new questions or delete questions. 
-Simply follow the on-screen prompts, then watch as your question is answered. 
-You can then choose to clear queries, or customze your screen. From then on, when you open the program, you can simply enter the app and have unlimited access to your saved questions. 
+In order to use the application, select Ask. Here you have the liberty to ask any yes or no question you'd like answered. You will have access to a database where you are able to freely create new questions or delete questions. 
+Simply type the question and click answer, then watch as your question is answered. 
+You can then choose to clear queries, or customize your screen. From then on, when you open the program, you can simply enter the app and have unlimited access to your saved questions. 
 
 Functionality:
 
