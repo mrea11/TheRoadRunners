@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="askScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fortuneteller.AskController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@App%20Images/border.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="99.0" layoutY="56.0" prefHeight="35.0" prefWidth="424.0" text="What Answers Do You Seek?" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="77.0" AnchorPane.topAnchor="56.0">
+         <font>
+            <Font name="Engravers MT" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="answer" layoutX="260.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleButtonAnswer" prefHeight="19.0" prefWidth="102.0" text="Answer" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="238.0" AnchorPane.topAnchor="147.0">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="save" layoutX="32.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleButtonSave" prefHeight="35.0" prefWidth="157.0" text="Save Results" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="411.0" AnchorPane.topAnchor="343.0">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Button fx:id="return1" layoutX="471.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleButtonReturn" prefHeight="27.0" prefWidth="102.0" text="Return" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="471.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <TextField fx:id="questionField" layoutX="111.0" layoutY="100.0" opacity="0.5" prefHeight="36.0" prefWidth="367.0" promptText="Type Question Here..." AnchorPane.bottomAnchor="264.0" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="122.0" AnchorPane.topAnchor="100.0" />
+      <Label alignment="CENTER" layoutX="56.0" layoutY="173.0" prefHeight="74.0" prefWidth="510.0" text="Zoltar Says..." textAlignment="CENTER">
+         <font>
+            <Font name="Engravers MT" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="299.0" />
+      <Label fx:id="resultsField" alignment="CENTER" contentDisplay="CENTER" layoutX="69.0" layoutY="219.0" onKeyTyped="#handleButtonAnswer" prefHeight="124.0" prefWidth="461.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Engravers MT" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
